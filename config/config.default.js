@@ -24,12 +24,14 @@ module.exports = appInfo => {
   };
 
   // // sequelize
-  // config.sequelize = {
-  //   dialect: 'mysql',
-  //   host: '127.0.0.1',
-  //   port: 3306,
-  //   database: 'ybcj',
-  // };
+  config.sequelize = {
+    dialect: 'mysql',
+    host: '127.0.0.1',
+    port: 3306,
+    "username": "wxcj",
+    "password": "wxcjwxcj",
+    "database": "wxcj",
+  };
 
   return {
     ...config,
