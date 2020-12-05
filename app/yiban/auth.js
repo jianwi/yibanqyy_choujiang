@@ -12,7 +12,7 @@ const crypto = require('crypto');
  */
 class Auth {
   constructor(vq, yibanConfig, callback, state) {
-    const {client_id, client_secret, redirect_uri} = yibanConfig;
+    const { client_id, client_secret, redirect_uri } = yibanConfig;
     this.client_id = client_id;
     this.client_secret = client_secret;
     this.redirect_uri = redirect_uri;
