@@ -26,6 +26,11 @@ module.exports = {
         allowNull: false,
         defaultValue: 0,
       },
+      fragments: {
+        type: Sequelize.INTEGER,
+        allowNull: false,
+        defaultValue: 0,
+      },
       created_at: {
         allowNull: false,
         type: Sequelize.DATE,
