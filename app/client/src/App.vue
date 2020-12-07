@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-   <router-view></router-view>
+    <transition enter-active-class="animated bounce" leave-active-class="animated hinge">
+      <router-view></router-view>
+    </transition>
   </div>
 </template>
 

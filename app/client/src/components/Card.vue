@@ -20,7 +20,7 @@ name: "Card"
 <style scoped>
   .container{
     width: 100%;
-    height: 7rem;
+    height: 6.5rem;
     margin: 15px 0;
     box-shadow: 0px 2px 5px black;
     display: flex;
@@ -28,7 +28,7 @@ name: "Card"
     align-items: center;
   }
   #title{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     margin-left: 2rem;
   }

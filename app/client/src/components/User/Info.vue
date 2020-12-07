@@ -34,7 +34,7 @@ export default {
   width: 100vw;
   display: flex;
   flex-direction: row;
-  background: linear-gradient(90deg,red,orange);
+  background: linear-gradient(20deg,red,orange);
   padding: 4.5px 0;
 }
 .avatar{
